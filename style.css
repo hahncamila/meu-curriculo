@@ -37,8 +37,18 @@ h1, h2, h3{
     row-gap: 20px;
 }
 
+#sidebar {
+    background-color: lightgray;
+}
 
+#sidebar .card {
+    background-color: white;
+    margin: 20px;
+}
 
+#content .card {
+    background-color: lightgray;
+}
 /* Contato */
 
 
@@ -60,7 +70,7 @@ h1, h2, h3{
 
 .card{
     font-family: Montserrat;
-    border: 1px solid lightgray;
+    border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
 }
@@ -83,3 +93,19 @@ h1, h2, h3{
     width: 30px;
     color:lightgray;
 }
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 800px) {
+    #container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    #content {
+        margin-top: 20px;
+        border-top: 1px;
+    }
+  }
