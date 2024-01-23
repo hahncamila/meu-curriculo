@@ -14,17 +14,16 @@ h1, h2, h3{
     width: 400px;
     margin: 0px auto;
 }
+
 #nameAndTitle h1, h2{
     margin: 0px;
 }
 
-#contato{
-    list-style: none;
-}
-#contato i{
-    width: 30px;
-    color:lightgray;
-}
+
+
+/* Corpo */
+
+
 
 #container{
     display: grid;
@@ -38,9 +37,26 @@ h1, h2, h3{
     row-gap: 20px;
 }
 
-.card h3{
-    font-family: 'Hubballi', sans-serif;
+
+
+/* Contato */
+
+
+
+#contato{
+    list-style: none;
 }
+
+#contato i{
+    width: 30px;
+    color:lightgray;
+}
+
+
+
+/* Cards */
+
+
 
 .card{
     font-family: Montserrat;
@@ -48,6 +64,16 @@ h1, h2, h3{
     border-radius: 10px;
     padding: 20px;
 }
+
+.card h3{
+    font-family: 'Hubballi', sans-serif;
+}
+
+
+
+/* Links */
+
+
 
 #links{
     list-style: none;
